@@ -13,7 +13,7 @@ services:
 #      - "traefik.http.routers.blizzcon-secured.entrypoints=websecure"
 #      - "traefik.http.routers.blizzcon-secured.tls.certresolver=myhttpchallenge"
       - "traefik.http.services.blizzcon.loadbalancer.server.port=80"
-      - "traefik.http.middlewares.schedule-redirectregex.redirectregex.regex=^(.*com)/{0,1}$$"
+      - "traefik.http.middlewares.schedule-redirectregex.redirectregex.regex=^(.*com)/{0,1}(\\?.*){0,1}$$"
       - "traefik.http.middlewares.schedule-redirectregex.redirectregex.replacement=$${1}/schedule"
       - "traefik.http.routers.blizzcon.middlewares=schedule-redirectregex@docker"
 
