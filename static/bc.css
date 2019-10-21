@@ -1,0 +1,122 @@
+body{
+	margin:15px 0px 0px 0px;
+	padding:0px;
+	background-color:#010D13;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+}
+a, a:visited, a:active{
+	color:#C0C0C0;
+}
+header img, #header img{
+	display: block;
+	margin: 0px auto 5px auto;
+	width: 160px;
+}
+header a, #header a{
+	float:right;
+	color:#C0C0C0;
+	font-size:32px;
+	position: absolute;
+    top: 0;
+    right: 0;
+    margin: 38px;
+}
+#content{
+	padding:0px 10px;
+}
+table#bc_panels2{
+	width:100%;
+}
+table th{
+	background-color:#444;
+	color:#0CAEFE;
+	border-radius: 5px;
+	padding:3px;
+	font-size: 12px;
+}
+table td{
+	padding:7px;
+	font-size: 12px;
+}
+footer, #footer{
+	height:20px;
+	margin-top:5px;
+	color:C0C0C0;
+	text-align: center;
+}
+tr{
+	background-color: rgba(221,221,221,.8);
+}
+tr:hover{
+	background-color: rgba(221,221,221,1);
+}
+tr td:first-child{
+	background-image: url('/static/images/blizzcon.gif');
+	background-repeat: no-repeat;
+	background-position: left 2px center;
+	padding-left: 20px;
+	text-align: center;
+	background-color: rgba(221,221,221,.4);
+}
+tr.wow{
+	background-color:rgba(0,136,51,.8);
+}
+tr.wow:hover{
+	background-color:rgba(0,136,51,1);
+}
+tr.sc2{
+	/*background-color:rgba(0,51,255,.8);*/
+	background-color:rgba(65,184,225,.8);
+}
+tr.sc2:hover{
+	background-color:rgba(65,184,225,1);
+}
+tr.d3{
+	background-color:rgba(255,51,0,.8)
+}
+tr.d3:hover{
+	background-color:rgba(255,51,0,1);
+}
+tr.hs{
+	background-color:rgba(196,185,139,.8);
+}
+tr.hs:hover{
+	background-color:rgba(196,185,139,1);
+}
+tr.hots{
+	background-color:rgba(178,139,204,.8);
+}
+tr.hots:hover{
+	background-color:rgba(178,139,204,1);
+}
+tr.ow{
+	background-color: rgba(255,174,0,.8);
+}
+tr.ow:hover{
+	background-color: rgba(255,174,0,1);
+}
+tr.wow td:first-child{
+	background-image: url('/static/images/wow.gif');
+	background-color:rgba(0,136,51,.4);
+}
+tr.sc2 td:first-child{
+	background-image: url('/static/images/sc2.gif');
+	background-color:rgba(65,184,225,.4);
+}
+tr.d3 td:first-child{
+	background-image: url('/static/images/d3.gif');
+	background-color:rgba(255,51,0,.4)
+}
+tr.hs td:first-child{
+	background-image: url('/static/images/hs.gif');
+	background-color:rgba(196,185,139,.4)
+}
+tr.hots td:first-child{
+	background-image: url('/static/images/hots.gif');
+	background-color:rgba(178,139,204,.4);
+}
+tr.ow td:first-child{
+	background-image: url('/static/images/overwatch.gif');
+	background-color: rgba(255,174,0,.4);
+}
