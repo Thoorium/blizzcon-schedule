@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  web:
+    image: local/blizzcon-schedule:2017
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.blizzcon.rule=Host(`blizzcon.marlamin.com`)"
+      - "traefik.http.routers.blizzcon.entrypoints=web"
+#      - "traefik.http.routers.blizzcon.middlewares=httpsredirect@docker"
+#      - "traefik.http.routers.blizzcon-secured.rule=Host(`blizzcon.marlamin.com`)"
+#      - "traefik.http.routers.blizzcon-secured.entrypoints=websecure"
+#      - "traefik.http.routers.blizzcon-secured.tls.certresolver=myhttpchallenge"
+      - "traefik.http.services.blizzcon.loadbalancer.server.port=80"
