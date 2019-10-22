@@ -96,6 +96,12 @@ tr.ow{
 tr.ow:hover{
 	background-color: rgba(255,174,0,1);
 }
+tr.w3r{
+	background-color: rgba(130,174,0,.8);
+}
+tr.w3r:hover{	
+	background-color: rgba(130,174,0,.9);
+}
 tr.wow td:first-child{
 	background-image: url('/static/images/wow.gif');
 	background-color:rgba(0,136,51,.4);
@@ -119,4 +125,11 @@ tr.hots td:first-child{
 tr.ow td:first-child{
 	background-image: url('/static/images/overwatch.gif');
 	background-color: rgba(255,174,0,.4);
+}
+tr.w3r td:first-child{
+	background-image: url('/static/images/w3r.gif');
+	background-color: rgba(130,174,0,.4);
+}
+table thead tr{
+	background:transparent;
 }
