@@ -322,6 +322,17 @@ $(function () {
 				}
 			}
 		}
+
+		var opening_ceremony = days[0].panels[0];
+		if(opening_ceremony.start > timestamp)
+		{
+			var blizzcon_begins = countdown(timestamp, opening_ceremony.start);
+			blizzcon_begins = blizzcon_begins.replace(" days", "d").replace(" day", "d")
+								.replace(" hours", "h").replace(" hour", "h")
+								.replace(" minutes", "m").replace(" minute", "m")
+								.replace(" seconds", "s").replace(" second", "s");
+			window.document.title = blizzcon_begins + " - Blizzcon 2019";
+		}
 	}
 
 	function pretty_date(start_ts, end_ts) {

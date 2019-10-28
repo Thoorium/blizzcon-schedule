@@ -130,6 +130,6 @@ tr.w3r td:first-child{
 	background-image: url('/static/images/w3r.gif');
 	background-color: rgba(130,174,0,.4);
 }
-table thead tr{
+table thead tr, table thead tr:hover{
 	background:transparent;
 }
