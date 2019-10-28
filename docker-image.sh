@@ -1,0 +1,1 @@
+docker build . -t local/blizzcon-schedule:2019.2
