@@ -36,11 +36,11 @@ $(function () {
 			game: ''
 		}, 
 		{
-			name: 'Coming Soon',
+			name: 'Diablo IV: Unveiled',
 			start: Date.UTC(2019, 10, 1, 19, 30, 0),
 			end: Date.UTC(2019, 10, 1, 20, 15, 0),
 			stage: 'Mythic',
-			game: ''
+			game: 'd3'
 		}, 
 		{
 			name: 'Quarter Century of Warcraft Audio',
@@ -50,11 +50,11 @@ $(function () {
 			game: 'wow'
 		}, 
 		{
-			name: 'Coming Soon',
+			name: 'Overwatch: What\'s Next',
 			start: Date.UTC(2019, 10, 1, 20, 30, 0),
 			end: Date.UTC(2019, 10, 1, 21, 15, 0),
 			stage: 'Mythic',
-			game: ''
+			game: 'ow'
 		}, 
 		{
 			name: 'Life at Blizzard: Career & Culture Insights',
@@ -78,11 +78,11 @@ $(function () {
 			game: 'hots'
 		}, 
 		{
-			name: 'Coming Soon',
+			name: 'Hearthstone: What\'s Next',
 			start: Date.UTC(2019, 10, 1, 22, 30, 0),
 			end: Date.UTC(2019, 10, 1, 23, 15, 0),
 			stage: 'Mythic',
-			game: ''
+			game: 'hs'
 		}, 
 		{
 			name: 'Blizzard Animation: The Art of Setting the Scene',

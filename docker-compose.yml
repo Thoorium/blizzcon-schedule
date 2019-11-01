@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   web:
-    image: local/blizzcon-schedule:2019.3
+    image: local/blizzcon-schedule:2019.4
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
