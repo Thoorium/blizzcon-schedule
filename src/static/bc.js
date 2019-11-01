@@ -64,11 +64,11 @@ $(function () {
 			game: ''
 		}, 
 		{
-			name: 'Coming Soon',
+			name: 'World of Warcraft: What\'s Next',
 			start: Date.UTC(2019, 10, 1, 21, 30, 0),
 			end: Date.UTC(2019, 10, 1, 22, 15, 0),
 			stage: 'Mythic',
-			game: ''
+			game: 'wow'
 		}, 
 		{
 			name: 'Heroes of the Storm Update',
