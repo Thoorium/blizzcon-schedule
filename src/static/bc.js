@@ -71,7 +71,7 @@ $(function () {
 			game: 'wow'
 		}, 
 		{
-			name: 'Heroes of the Storm Update',
+			name: 'Heroes of the Storm: Deep Dive',
 			start: Date.UTC(2019, 10, 1, 22, 15, 0),
 			end: Date.UTC(2019, 10, 1, 23, 00, 0),
 			stage: 'Epic',
@@ -132,14 +132,14 @@ $(function () {
 			game: 'ow'
 		}, 
 		{
-			name: 'Artists at Work: Diablo',
+			name: 'Artists at Work: Diablo IV',
 			start: Date.UTC(2019, 10, 2, 17, 30, 0),
 			end: Date.UTC(2019, 10, 2, 18, 15, 0),
 			stage: 'Epic',
 			game: 'd3'
 		}, 
 		{
-			name: 'World of Warcraft Update',
+			name: 'World of Warcraft: Deep Dive',
 			start: Date.UTC(2019, 10, 2, 18, 15, 0),
 			end: Date.UTC(2019, 10, 2, 19, 00, 0),
 			stage: 'Mythic',
@@ -153,11 +153,11 @@ $(function () {
 			game: 'ow'
 		}, 
 		{
-			name: 'Coming Soon',
+			name: 'Diablo IV: Systems & Features',
 			start: Date.UTC(2019, 10, 2, 19, 15, 0),
 			end: Date.UTC(2019, 10, 2, 20, 00, 0),
 			stage: 'Mythic',
-			game: ''
+			game: 'd3'
 		}, 
 		{
 			name: 'Stay Awhile & Listen',
@@ -167,7 +167,7 @@ $(function () {
 			game: ''
 		}, 
 		{
-			name: 'Overwatch Update',
+			name: 'Overwatch: Evolving the Art',
 			start: Date.UTC(2019, 10, 2, 20, 15, 0),
 			end: Date.UTC(2019, 10, 2, 21, 00, 0),
 			stage: 'Mythic',
@@ -195,11 +195,11 @@ $(function () {
 			game: ''
 		}, 
 		{
-			name: 'Coming Soon',
+			name: 'Diablo IV: World & Lore',
 			start: Date.UTC(2019, 10, 2, 22, 15, 0),
 			end: Date.UTC(2019, 10, 2, 23, 00, 0),
 			stage: 'Mythic',
-			game: ''
+			game: 'd3'
 		}, 
 		{
 			name: 'Warcraft III: Reforged Update',
